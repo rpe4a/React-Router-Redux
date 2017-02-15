@@ -7,7 +7,7 @@ class Admin extends Component {
                 <div className='col-md-12'>Раздел /admin</div>
             </div>
         )
-    }
+    } 
 }
 
 export default Admin
