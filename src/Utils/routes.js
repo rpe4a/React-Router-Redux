@@ -4,6 +4,7 @@ import App from '../containers/App';
 import Home from '../components/Home';
 import Admin from '../components/Admin';
 import Genre from '../components/Genre';
+import List from '../components/List';
 
 
 export default (
@@ -12,5 +13,6 @@ export default (
         <Route path='admin' component={Admin}></Route>
         <Route path='genre' component={Genre}></Route>
         <Route path='genre' component={Genre}></Route>
+        <Route path='list' component={List}></Route>
     </Route>
 )
